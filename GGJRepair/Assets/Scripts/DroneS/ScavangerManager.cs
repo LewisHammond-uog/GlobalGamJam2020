@@ -17,7 +17,11 @@ public class ScavangerManager : DroneManager
 
     public void CreateScavenger()
     {
-        GameObject scavenger = Instantiate(scavengerPrefab);
+        if (dronesOnShip > 0)
+        {
+            GameObject scavenger = Instantiate(scavengerPrefab);
+        }
+        
     }
     
 
