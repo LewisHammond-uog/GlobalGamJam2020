@@ -10,9 +10,12 @@ public class ScavengerScript : MonoBehaviour
     public bool scavengersAvailable = true;
     public int scavengersOnShip;
     public float resourcePerMin;
-    public float health;
+    public float health = 100.0f;
+    public float repairTime;
+    public float repairCost;
+    public float upgradePrice;
 
-    
+
     // Start is called before the first frame update
     void Start()
     {

@@ -6,7 +6,10 @@ public class ExplorerScript : MonoBehaviour
 {
     public int numOfExplorers;
     public bool explorersAvailable = false;
-    public float health;
+    public float health = 100.0f;
+    public float repairTime;
+    public float repairCost;
+    public float upgradePrice;
 
     void Start()
     {
