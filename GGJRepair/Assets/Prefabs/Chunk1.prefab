@@ -93,6 +93,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ourType: 0
+  goodSprite: {fileID: 21300000, guid: 2acde5f2c2aa60c4c991e51f11ae4052, type: 3}
+  badSprite: {fileID: 21300000, guid: 2acde5f2c2aa60c4c991e51f11ae4052, type: 3}
 --- !u!1 &2714826522751881232
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ourType: 0
+  goodSprite: {fileID: 21300000, guid: 8451d9973bc9f244f939430467e55e72, type: 3}
+  badSprite: {fileID: 21300000, guid: 8451d9973bc9f244f939430467e55e72, type: 3}
 --- !u!1 &4800268772642118807
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,6 +317,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ourType: 0
+  goodSprite: {fileID: 21300000, guid: 1837d66deaa494446a2e54af40c8475c, type: 3}
+  badSprite: {fileID: 21300000, guid: 1837d66deaa494446a2e54af40c8475c, type: 3}
 --- !u!1 &8557275529143278818
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,3 +412,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ourType: 0
+  goodSprite: {fileID: 21300000, guid: a50a8367b3f0e914d889744af721d52b, type: 3}
+  badSprite: {fileID: 21300000, guid: a50a8367b3f0e914d889744af721d52b, type: 3}
