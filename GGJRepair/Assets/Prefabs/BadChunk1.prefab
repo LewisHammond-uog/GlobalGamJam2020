@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1633536328324148934}
   - component: {fileID: 4799093111484137276}
+  - component: {fileID: 7305415946053516638}
   m_Layer: 0
   m_Name: Land bad_0
   m_TagString: Untagged
@@ -111,6 +112,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7305415946053516638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3316247464798636703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410f8116a1dc7e74e9c021c41b3ab37c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ourType: 0
+  goodSprite: {fileID: 8415502861148952120, guid: b8024cb1f41844043a4149a35d647a67,
+    type: 3}
+  badSprite: {fileID: -893738095080197720, guid: e533aae8d0e6c1749938c02570247fa0,
+    type: 3}
 --- !u!1 &5108257539487973655
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,6 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6380791203118787535}
   - component: {fileID: 3512738864448885403}
+  - component: {fileID: 6572441555661062768}
   m_Layer: 0
   m_Name: Land bad_11
   m_TagString: Untagged
@@ -191,6 +210,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6572441555661062768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5108257539487973655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410f8116a1dc7e74e9c021c41b3ab37c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ourType: 0
+  goodSprite: {fileID: 8659064978599544353, guid: b8024cb1f41844043a4149a35d647a67,
+    type: 3}
+  badSprite: {fileID: -6240905471710207449, guid: e533aae8d0e6c1749938c02570247fa0,
+    type: 3}
 --- !u!1 &5345897817954616333
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2992185832336576237}
   m_Layer: 0
-  m_Name: Chunk1
+  m_Name: BadChunk1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,6 +333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7789972364412935040}
   - component: {fileID: 6746992588930760378}
+  - component: {fileID: 3786589347542906393}
   m_Layer: 0
   m_Name: Land bad_1
   m_TagString: Untagged
@@ -367,6 +404,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3786589347542906393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6594401906301762745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410f8116a1dc7e74e9c021c41b3ab37c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ourType: 0
+  goodSprite: {fileID: -204892977217384064, guid: b8024cb1f41844043a4149a35d647a67,
+    type: 3}
+  badSprite: {fileID: -2799737128278301530, guid: e533aae8d0e6c1749938c02570247fa0,
+    type: 3}
 --- !u!1 &7588205671529910561
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,6 +431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4323762104903287316}
   - component: {fileID: 8654438712923391004}
+  - component: {fileID: 3599652088437134041}
   m_Layer: 0
   m_Name: Land bad_10
   m_TagString: Untagged
@@ -447,6 +502,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3599652088437134041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7588205671529910561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410f8116a1dc7e74e9c021c41b3ab37c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ourType: 0
+  goodSprite: {fileID: -993753299270288607, guid: b8024cb1f41844043a4149a35d647a67,
+    type: 3}
+  badSprite: {fileID: 3250728000653788725, guid: e533aae8d0e6c1749938c02570247fa0,
+    type: 3}
 --- !u!1 &7713796312914831473
 GameObject:
   m_ObjectHideFlags: 0
