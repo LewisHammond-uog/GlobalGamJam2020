@@ -22,7 +22,7 @@ public abstract class DroneManager
                     WorldTile obj = hit.transform.gameObject.GetComponent<WorldTile>();
                     if (obj != null)
                     {
-                        drone.GoToLocatation(obj.transform.position);
+                        drone.StartMoveToLocation(obj.transform.position);
                     }
                 }
             }

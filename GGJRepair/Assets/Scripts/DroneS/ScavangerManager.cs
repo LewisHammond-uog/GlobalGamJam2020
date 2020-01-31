@@ -31,7 +31,7 @@ public class ScavangerManager : DroneManager
     public void DeployScavenger()
     {
         //Choose destination
-        
+        //WaitForClickToLocation(Drone drone)
 
         scavengersOnShip--;
     }
