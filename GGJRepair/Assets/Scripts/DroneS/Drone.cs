@@ -8,6 +8,12 @@ public class Drone : MonoBehaviour
     public float repairTime;
     public float repairCost;
 
+    public WorldTile destination;
+
+    public void GoToLocatation(Vector2 location)
+    {
+
+    }
 
 
 }

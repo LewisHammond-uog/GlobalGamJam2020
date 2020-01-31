@@ -25,14 +25,16 @@ public class ScavangerManager : DroneManager
             GamestateManager.resources -= upgradeCost;
             scavengersOnShip++;
             totalDrones++;
-        }   
+        }
     }
 
     public void DeployScavenger()
     {
-        //Choose destination 
+        //Choose destination
         
+
         scavengersOnShip--;
     }
+
     
 }
