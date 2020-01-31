@@ -20,9 +20,9 @@ public class ScavangerManager : DroneManager
         if (dronesOnShip > 0)
         {
             GameObject scavenger = Instantiate(scavengerPrefab);
+            dronesOnShip--;
         }
         
     }
     
-
 }
