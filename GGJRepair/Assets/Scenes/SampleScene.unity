@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc27a857ee1ff634c99b97ad1e05dc25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clusterPrefab: {fileID: 5350292206394468608, guid: dd4050cf283ecb54990976ef06f943da,
+  clusterPrefab: {fileID: 634570733871747832, guid: 0c07bd001d3f3ee4a8706d67b4fba8bb,
     type: 3}
   worldDimentions: {x: 16, y: 8}
 --- !u!4 &2241213
