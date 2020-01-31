@@ -434,14 +434,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce45509cd9376554a8f2a85a35198913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numOfScavengers: 0
-  scavengersAvailable: 1
+  totalDrones: 0
+  scavengerPrefab: {fileID: 0}
+  upgradeCost: 20
   scavengersOnShip: 0
-  resourcePerMin: 0
-  health: 100
-  repairTime: 0
-  repairCost: 0
-  upgradePrice: 0
 --- !u!114 &353138569
 MonoBehaviour:
   m_ObjectHideFlags: 0
