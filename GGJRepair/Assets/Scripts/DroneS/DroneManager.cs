@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class DroneManager
+public abstract class DroneManager : MonoBehaviour
 {
     public int totalDrones;
 
@@ -10,7 +10,7 @@ public abstract class DroneManager
     /// Wait for the player to click and select a location to go to
     /// </summary>
     /// <returns></returns>
-    IEnumerator WaitForClickToLocation(Drone drone)
+    public IEnumerator WaitForClickToLocation(Drone drone)
     {
         while (true)
         {

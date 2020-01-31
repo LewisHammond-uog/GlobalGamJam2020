@@ -12,14 +12,9 @@ public class WorkerManager : DroneManager
     // Start is called before the first frame update
     void Start()
     {
-        workersOnShip = ;
+        workersOnShip = 1;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void BuyWorker()
     {
@@ -36,13 +31,13 @@ public class WorkerManager : DroneManager
     {
         //Choose destination 
         GameObject newWorker = Instantiate(workerPrefab);
-        newWorker.transform.position = new Vector3(0.7f, 5.7f, 0.f);
-        WaitForClickToLocation(newWorker);
+        newWorker.transform.position = new Vector3(0.7f, 5.7f, 0.0f);
+        WaitForClickToLocation(newWorker.gameObject.GetComponent<Drone>());
         workersOnShip--;
     }
 
     public void RepairWorker()
     {
-        if()
+        //if()
     }
 }
