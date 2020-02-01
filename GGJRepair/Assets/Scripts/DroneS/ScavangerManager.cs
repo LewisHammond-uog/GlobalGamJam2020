@@ -34,6 +34,7 @@ public class ScavangerManager : DroneManager
             GameObject newScavenger = Instantiate(scavengerPrefab, baseLocation, Quaternion.identity);
             newScavenger.GetComponent<Scavenger>().resorcePerSec = resourcePerMinute / 60;
             newScavenger.GetComponent<Scavenger>().lifeTime = extractTime;
+            newScavenger.GetComponent<Scavenger>().creator = this;
             donesOnShip--;
         }
 

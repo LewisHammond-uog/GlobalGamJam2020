@@ -34,6 +34,7 @@ public class WorkerManager : DroneManager
             GameObject newWorker = Instantiate(workerPrefab, new Vector3(0.7f, 5.7f, 0.0f), Quaternion.identity);
             newWorker.GetComponent<Worker>().repiarPerSec = repairPerMinute / 60;
             newWorker.GetComponent<Worker>().lifeTime = extractTime;
+            newWorker.GetComponent<Worker>().creator = this;
             donesOnShip--;
         }
 

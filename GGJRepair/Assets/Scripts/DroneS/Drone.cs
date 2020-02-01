@@ -28,6 +28,8 @@ public class Drone : MonoBehaviour
     public WorldTile destinationTile;
     public Vector3 baseLocation;
 
+    public DroneManager creator;
+
     #region Tile Click Event
     protected void OnEnable()
     {
@@ -116,6 +118,12 @@ public class Drone : MonoBehaviour
         if (destinationTile.user == this)
         {
             destinationTile.user = null;
+           
+        }
+
+        if (creator != null)
+        {
+            creator.totalDrones--;
         }
     }
 
