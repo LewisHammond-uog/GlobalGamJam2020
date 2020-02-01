@@ -24,8 +24,10 @@ public class WorldTile : MonoBehaviour
     [SerializeField]
     public Sprite goodSprite, badSprite, undiscoveredSprite;
     private SpriteRenderer spriteRenderer;
-
     public Drone user;
+
+    [Header("Is Start Tile")]
+    public bool isStartTile = false;
 
     //Event for tile clicked
     public delegate void TileClick(WorldTile tile);
@@ -34,15 +36,26 @@ public class WorldTile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Initalise values
-        discovered = false;
-        repairState = 0f;
-        remainingResources = 100f;
-        //Start with the badSprite
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = undiscoveredSprite;
+        if (!isStartTile)
+        {
+            //Initalise values
+            discovered = false;
+            repairState = 0f;
+            remainingResources = 100f;
+            //Start with the badSprite
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer.sprite = undiscoveredSprite;
+        }
+        else
+        {
+            discovered = true;
+            repairState = 100f;
+            remainingResources = 100f;
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer.sprite = goodSprite;
+        }
 
-        user = null;
+           user = null;
 
     }
 

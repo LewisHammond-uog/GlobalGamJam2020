@@ -18,10 +18,23 @@ public class WorldGen : MonoBehaviour
         {
             for(int y = 1; y < worldDimentions.y; y += 2)
             {
-                GameObject newCluster = Instantiate(clusterPrefab);
-                newCluster.transform.position = new Vector2(x, y);
-                newCluster.transform.parent = transform;
-                newCluster.name = ($"World Chunk {x},{y}");
+                if(x == 1 && y == 1)
+                {
+                    //Generate the first tile
+                    GameObject newCluster = Instantiate(clusterPrefab);
+                    newCluster.transform.position = new Vector2(x, y);
+                    newCluster.transform.parent = transform;
+                    newCluster.name = ($"First Chunk");
+                    newCluster.GetComponent<IslandChunk>().isFirstChunk = true;
+                    
+                }
+                else
+                {
+                    GameObject newCluster = Instantiate(clusterPrefab);
+                    newCluster.transform.position = new Vector2(x, y);
+                    newCluster.transform.parent = transform;
+                    newCluster.name = ($"World Chunk {x},{y}");
+                }
             }
         }
     }
