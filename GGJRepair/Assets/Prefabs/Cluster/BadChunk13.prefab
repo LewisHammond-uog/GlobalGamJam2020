@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6946954242925680304}
   m_Layer: 0
-  m_Name: BadChunk12
+  m_Name: BadChunk13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -188,9 +188,9 @@ MonoBehaviour:
   discovered: 0
   repairState: 0
   remainingResources: 0
-  goodSprite: {fileID: 1508179549805982925, guid: 78ebfc98a747a354888e8ad7c85a7ea0,
+  goodSprite: {fileID: 5137287333874190396, guid: 78ebfc98a747a354888e8ad7c85a7ea0,
     type: 3}
-  badSprite: {fileID: 4470607849041115071, guid: a31f7356e859f854f904d821a8b31118,
+  badSprite: {fileID: -3453726814798388845, guid: a31f7356e859f854f904d821a8b31118,
     type: 3}
   undiscoveredSprite: {fileID: 0}
 --- !u!1 &1327135423211562212
