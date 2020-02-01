@@ -8,14 +8,14 @@ public class Scavenger : Drone
     public ScavangerManager creator;
 
 
-    public void CollectResources(GameObject scavenger)
-    {
-        float time = 60.0f;
-        while (time <= extractTime)
-        {
-            GamestateManager.resources += 1.0f;
-            time += Time.deltaTime;
-        }
-        ReturnScavenger();
-    }
+    //public void CollectResources(GameObject scavenger)
+    //{
+    //    float time = 60.0f;
+    //    while (time <= extractTime)
+    //    {
+    //        GamestateManager.resources += 1.0f;
+    //        time += Time.deltaTime;
+    //    }
+    //    ReturnScavenger();
+    //}
 }

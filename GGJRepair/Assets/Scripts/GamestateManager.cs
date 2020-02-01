@@ -4,6 +4,6 @@ using UnityEngine;
 
 public static class GamestateManager
 {
-    public static float resources;
+    public static float resources = 100.0f;
 
 }
