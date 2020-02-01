@@ -31,7 +31,7 @@ public class ExplorerManager : DroneManager
     {
         if (donesOnShip >= 1)
         {
-            GameObject newExploerer = Instantiate(exploererPrefab, new Vector3(0.7f, 5.7f, 0.0f), Quaternion.identity);
+            GameObject newExploerer = Instantiate(exploererPrefab, baseLocation, Quaternion.identity);
             newExploerer.GetComponent<Exploerer>().lifeTime = extractTime;
             donesOnShip--;
         }

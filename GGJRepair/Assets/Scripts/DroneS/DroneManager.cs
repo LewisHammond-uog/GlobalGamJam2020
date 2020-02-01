@@ -6,4 +6,5 @@ public abstract class DroneManager : MonoBehaviour
 {
     public int totalDrones;
     public int donesOnShip;
+    public Vector3 baseLocation;
 }

@@ -24,9 +24,9 @@ public class Drone : MonoBehaviour
     private float moveSpeed = 5f;
 
     protected DroneState currentState;
-    public Vector2 destination;
+    public Vector3 destination;
     public WorldTile destinationTile;
-    public Vector2 baseLocation;
+    public Vector3 baseLocation;
 
     #region Tile Click Event
     protected void OnEnable()
