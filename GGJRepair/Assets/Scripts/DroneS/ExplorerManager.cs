@@ -33,6 +33,7 @@ public class ExplorerManager : DroneManager
         {
             GameObject newExploerer = Instantiate(exploererPrefab, baseLocation, Quaternion.identity);
             newExploerer.GetComponent<Exploerer>().lifeTime = extractTime;
+            newExploerer.GetComponent<Exploerer>().creator = this;
             donesOnShip--;
         }
 
