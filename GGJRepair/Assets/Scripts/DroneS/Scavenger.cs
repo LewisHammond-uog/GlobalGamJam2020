@@ -28,6 +28,10 @@ public class Scavenger : Drone
                     currentState = DroneState.GOTO_BASE;
                 }
             }
+            else
+            {
+                currentState = DroneState.GOTO_BASE;
+            }
         }
 
     }
