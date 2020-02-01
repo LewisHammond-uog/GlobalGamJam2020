@@ -117,11 +117,12 @@ public class WorldTile : MonoBehaviour
 
         //Create Good Sprite behind this one on a new game obj
         newSpriteObj = new GameObject();
-        newSpriteObj.transform.position = transform.position + new Vector3(0, 0, 10);
+        newSpriteObj.transform.position = transform.position;
         newSpriteObj.transform.parent = transform;
         newSpriteObj.name = "TransisionSprite";
         //Add a sprite renderer to the new object and assign it the new sprie
         newSpriteObj.AddComponent<SpriteRenderer>().sprite = newSprite;
+        newSpriteObj.AddComponent<SpriteRenderer>().sortingOrder = -1;
 
         //Fade out Old Sprite
         float currentAlpha = thisObjSpriteRenderer.color.a;

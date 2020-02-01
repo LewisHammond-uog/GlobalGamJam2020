@@ -8,7 +8,7 @@ public class WorldGen : MonoBehaviour
     private GameObject clusterPrefab;
 
     [SerializeField]
-    private Vector2 worldDimentions;
+    private Vector3 worldDimentions;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +16,7 @@ public class WorldGen : MonoBehaviour
         //Generate chunks in the world
         for(int x = 1; x < worldDimentions.x; x += 2)
         {
-            for(int y = 1; y < worldDimentions.y; y += 2)
+            for(int y = 1; y < worldDimentions.z; y += 2)
             {
                 if(x == 1 && y == 1)
                 {
@@ -31,7 +31,7 @@ public class WorldGen : MonoBehaviour
                 else
                 {
                     GameObject newCluster = Instantiate(clusterPrefab);
-                    newCluster.transform.position = new Vector2(x, y);
+                    newCluster.transform.position = new Vector3(x, y);
                     newCluster.transform.parent = transform;
                     newCluster.name = ($"World Chunk {x},{y}");
                 }
