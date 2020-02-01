@@ -44,6 +44,7 @@ public class Drone : MonoBehaviour
     {
         destination = Vector2.zero;
         currentState = DroneState.IDLE;
+        GetComponent<SpriteRenderer>().sortingOrder = 1;
     }
     
     private void SetLocation(WorldTile tile)

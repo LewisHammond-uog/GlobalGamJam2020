@@ -5,7 +5,4 @@ using UnityEngine;
 public abstract class DroneManager : MonoBehaviour
 {
     public int totalDrones;
-
-    
-
 }

@@ -39,7 +39,7 @@ public class WorldTile : MonoBehaviour
         remainingResources = 100f;
         //Start with the badSprite
         spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = badSprite;
+        spriteRenderer.sprite = undiscoveredSprite;
 
     }
 
@@ -58,6 +58,15 @@ public class WorldTile : MonoBehaviour
         }
     }
 
+    public void DiscoverTile()
+    {
+        if(discovered == false)
+        {
+            discovered = true;
+            spriteRenderer.sprite = badSprite;
+            //StartCoroutine(FadeToSprite(2f,badSprite));
+        }
+    }
 
 
     //Call Event when this tile is clicked
@@ -79,8 +88,6 @@ public class WorldTile : MonoBehaviour
          * fades this sprite out, then once fully faded deletes the new
          * sprite object and sets this object sprite to the new sprite
          */
-
-
         //Init values
         GameObject newSpriteObj; //New obj that will be created to put the new sprite on while we transision
         SpriteRenderer thisObjSpriteRenderer = gameObject.GetComponent<SpriteRenderer>(); //Sprite Renderer on this obj

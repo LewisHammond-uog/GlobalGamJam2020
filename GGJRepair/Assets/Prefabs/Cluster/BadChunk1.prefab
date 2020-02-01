@@ -125,11 +125,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 410f8116a1dc7e74e9c021c41b3ab37c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ourType: 0
+  repairState: 0
+  remainingResources: 0
   goodSprite: {fileID: 8415502861148952120, guid: b8024cb1f41844043a4149a35d647a67,
     type: 3}
   badSprite: {fileID: -893738095080197720, guid: e533aae8d0e6c1749938c02570247fa0,
     type: 3}
+  undiscoveredSprite: {fileID: 21300000, guid: 9afc77d95866baf4a8bdb60cb869ddda, type: 3}
 --- !u!61 &6084582253194097605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -250,11 +252,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 410f8116a1dc7e74e9c021c41b3ab37c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ourType: 0
+  repairState: 0
+  remainingResources: 0
   goodSprite: {fileID: 8659064978599544353, guid: b8024cb1f41844043a4149a35d647a67,
     type: 3}
   badSprite: {fileID: -6240905471710207449, guid: e533aae8d0e6c1749938c02570247fa0,
     type: 3}
+  undiscoveredSprite: {fileID: 21300000, guid: 9afc77d95866baf4a8bdb60cb869ddda, type: 3}
 --- !u!61 &6004751288822231375
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -471,11 +475,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 410f8116a1dc7e74e9c021c41b3ab37c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ourType: 0
+  repairState: 0
+  remainingResources: 0
   goodSprite: {fileID: -204892977217384064, guid: b8024cb1f41844043a4149a35d647a67,
     type: 3}
   badSprite: {fileID: -2799737128278301530, guid: e533aae8d0e6c1749938c02570247fa0,
     type: 3}
+  undiscoveredSprite: {fileID: 21300000, guid: 9afc77d95866baf4a8bdb60cb869ddda, type: 3}
 --- !u!61 &5184489843268318489
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -596,11 +602,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 410f8116a1dc7e74e9c021c41b3ab37c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ourType: 0
+  repairState: 0
+  remainingResources: 0
   goodSprite: {fileID: -993753299270288607, guid: b8024cb1f41844043a4149a35d647a67,
     type: 3}
   badSprite: {fileID: 3250728000653788725, guid: e533aae8d0e6c1749938c02570247fa0,
     type: 3}
+  undiscoveredSprite: {fileID: 21300000, guid: 9afc77d95866baf4a8bdb60cb869ddda, type: 3}
 --- !u!61 &4574257115778851927
 BoxCollider2D:
   m_ObjectHideFlags: 0
