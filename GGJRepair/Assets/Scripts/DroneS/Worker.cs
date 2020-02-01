@@ -12,9 +12,10 @@ public class Worker : Drone
     {
         base.Update();
 
-        if(currentState == DroneState.DOING_TASK)
+        if (currentState == DroneState.DOING_TASK)
         {
             destinationTile.repairState += repiarPerSec * Time.deltaTime;
         }
+        else { int i = 0; }
     }
 }

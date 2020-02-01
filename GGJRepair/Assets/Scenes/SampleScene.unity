@@ -531,7 +531,7 @@ MonoBehaviour:
     type: 3}
   upgradeCost: 30
   extractTime: 60
-  repairPerMinute: 100
+  repairPerMinute: 1200
 --- !u!4 &353138571
 Transform:
   m_ObjectHideFlags: 0

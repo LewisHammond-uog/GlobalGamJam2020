@@ -48,12 +48,19 @@ public class WorldTile : MonoBehaviour
         if(remainingResources <= 0)
         {
             repairState = 0;
+            spriteRenderer.sprite = badSprite;
         }
 
         //Reset Resources if we repair to 100
         if(repairState >= 100)
         {
             remainingResources = 100;
+            spriteRenderer.sprite = goodSprite;
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            DiscoverTile();
         }
     }
 
