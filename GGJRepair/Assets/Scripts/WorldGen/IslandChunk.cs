@@ -8,6 +8,9 @@ public class IslandChunk : MonoBehaviour
     [SerializeField]
     private List<GameObject> chunks;
 
+    [SerializeField]
+    private Sprite unDiscoveredSprite;
+
     //The chunk that this object owns
     private GameObject ourChunk;
 
@@ -22,6 +25,14 @@ public class IslandChunk : MonoBehaviour
             ourChunk = Instantiate(selectedChunk);
             ourChunk.transform.parent = transform;
             ourChunk.transform.localPosition = Vector3.zero;
+
+            WorldTile[] tiles = GetComponentsInChildren<WorldTile>();
+
+            foreach(WorldTile tile in tiles)
+            {
+                tile.undiscoveredSprite = unDiscoveredSprite;
+            }
+
         }
     }
 

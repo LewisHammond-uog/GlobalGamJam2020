@@ -14,8 +14,14 @@ public class Worker : Drone
 
         if (currentState == DroneState.DOING_TASK)
         {
-            destinationTile.repairState += repiarPerSec * Time.deltaTime;
+            if (destinationTile.discovered)
+            {
+                destinationTile.repairState += repiarPerSec * Time.deltaTime;
+            }
+            else
+            {
+                currentState = DroneState.GOTO_BASE;
+            }
         }
-        else { int i = 0; }
     }
 }

@@ -22,7 +22,7 @@ public class WorldTile : MonoBehaviour
     public float remainingResources;
 
     [SerializeField]
-    private Sprite goodSprite, badSprite, undiscoveredSprite;
+    public Sprite goodSprite, badSprite, undiscoveredSprite;
     private SpriteRenderer spriteRenderer;
 
     //Event for tile clicked
