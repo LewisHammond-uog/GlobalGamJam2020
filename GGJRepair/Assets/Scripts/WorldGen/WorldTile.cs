@@ -26,7 +26,7 @@ public class WorldTile : MonoBehaviour
     private TileTypes ourType;
 
     [SerializeField]
-    private Sprite goodSprite, badSprite;
+    private Sprite goodSprite, badSprite, undiscoveredSprite;
     private SpriteRenderer spriteRenderer;
 
     //Event for tile clicked

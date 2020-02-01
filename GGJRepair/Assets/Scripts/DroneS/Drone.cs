@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class Drone : MonoBehaviour
 {
+    protected enum DroneState
+    {
+        IDLE,
+        GOTO_DEST,
+        DOING_TASK,
+        GOTO_BASE
+    }
+
     public int health;
     public float repairTime;
     public float repairCost;
@@ -11,9 +19,11 @@ public class Drone : MonoBehaviour
     public float lifeTime = 60f;
     private float aliveTimer = 0f;
 
-    private bool movingToLocation;
-    private float moveSpeed = 20;
+    private float moveSpeed = 5f;
+
+    protected DroneState currentState;
     public Vector2 destination;
+    public WorldTile destinationTile;
     public Vector2 baseLocation;
 
     #region Tile Click Event
@@ -31,38 +41,57 @@ public class Drone : MonoBehaviour
     protected void Start()
     {
         destination = Vector2.zero;
+        currentState = DroneState.IDLE;
     }
     
     private void SetLocation(WorldTile tile)
     {
-        if(destination == Vector2.zero)
+        if(currentState == DroneState.IDLE)
         {
             destination = tile.transform.position;
-            movingToLocation = true;
+            destinationTile = tile;
+            currentState = DroneState.GOTO_DEST;
+            
         }
     }
     protected void Update()
     {
-        if (movingToLocation)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, destination, moveSpeed * Time.deltaTime);
 
-            if(Vector3.Distance(transform.position, destination) < 0.1f) {
-                movingToLocation = false;
-            }
+        //This Handels going to/from destination/base
+        switch (currentState)
+        {
+            case(DroneState.GOTO_DEST):
+                {
+
+                    transform.position = Vector3.MoveTowards(transform.position, destination, moveSpeed * Time.deltaTime);
+
+                    if (Vector3.Distance(transform.position, destination) < 0.1f)
+                    {
+                        currentState = DroneState.DOING_TASK;
+                    }
+
+                    break;
+                }
+            case (DroneState.GOTO_BASE):
+                {
+
+                    //Recall Drone
+                    transform.position = Vector3.MoveTowards(transform.position, baseLocation, moveSpeed * Time.deltaTime);
+
+                    if (Vector3.Distance(transform.position, baseLocation) < 0.1f)
+                    {
+                        Destroy(gameObject);
+                    }
+
+                    break;
+                    
+                }
         }
 
         aliveTimer += Time.deltaTime;
-
         if(aliveTimer > lifeTime)
         {
-            //Recall Drone
-            transform.position = Vector3.MoveTowards(transform.position, baseLocation, moveSpeed * Time.deltaTime);
-
-            if (Vector3.Distance(transform.position, baseLocation) < 0.1f)
-            {
-                Destroy(gameObject);
-            }
+            currentState = DroneState.GOTO_BASE;
         }
     }
 

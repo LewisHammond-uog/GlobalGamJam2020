@@ -12,7 +12,7 @@ public class Scavenger : Drone
     {
         base.Update();
 
-        if(Vector2.Distance(transform.position, destination) < 0.1)
+        if(currentState == DroneState.DOING_TASK)
         {
             GamestateManager.resources += resorcePerSec * Time.deltaTime;
         }
