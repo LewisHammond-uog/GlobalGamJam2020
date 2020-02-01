@@ -15,6 +15,11 @@ public class Exploerer : Drone
             //If this tile runs out of resources then return the
             //drone to base
             destinationTile.DiscoverTile();
+
+            if (destinationTile.discovered)
+            {
+                currentState = DroneState.GOTO_BASE;
+            }
         }
 
     }

@@ -16,7 +16,7 @@ public class Worker : Drone
 
         if (currentState == DroneState.DOING_TASK)
         {
-            if (destinationTile.discovered)
+            if (destinationTile.discovered && destinationTile.repairState < 100)
             {
                 destinationTile.repairState += repiarPerSec * Time.deltaTime;
             }

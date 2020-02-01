@@ -41,7 +41,7 @@ public class WorldTile : MonoBehaviour
             //Initalise values
             discovered = false;
             repairState = 0f;
-            remainingResources = 100f;
+            remainingResources = 20f;
             //Start with the badSprite
             spriteRenderer = GetComponent<SpriteRenderer>();
             spriteRenderer.sprite = undiscoveredSprite;
