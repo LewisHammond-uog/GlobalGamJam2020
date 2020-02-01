@@ -6,16 +6,17 @@ public class Scavenger : Drone
 {
     public float resourcesPerMin;
     public ScavangerManager creator;
+    public float resorcePerSec = 1;
 
+    private void Update()
+    {
+        base.Update();
 
-    //public void CollectResources(GameObject scavenger)
-    //{
-    //    float time = 60.0f;
-    //    while (time <= extractTime)
-    //    {
-    //        GamestateManager.resources += 1.0f;
-    //        time += Time.deltaTime;
-    //    }
-    //    ReturnScavenger();
-    //}
+        if(Vector2.Distance(transform.position, destination) < 0.1)
+        {
+            GamestateManager.resources += resorcePerSec * Time.deltaTime;
+        }
+
+    }
+
 }

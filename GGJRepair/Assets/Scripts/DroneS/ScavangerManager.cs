@@ -28,10 +28,7 @@ public class ScavangerManager : DroneManager
             GamestateManager.resources -= upgradeCost;
             scavengersOnShip += 1;
             numOfScavengers += 1;
-            resourcePerMinute *= 1.5f;
             totalDrones += 1;
-            upgradeCost += 10.0f;
-            
         }
     }
 
@@ -40,32 +37,9 @@ public class ScavangerManager : DroneManager
         if(scavengersOnShip >= 1)
         {
             GameObject newScavenger = Instantiate(scavengerPrefab, new Vector3(0.7f, 5.7f, 0.0f), Quaternion.identity);
-            //newScavenger.transform.position = new Vector3(0.7f, 5.7f, 0.0f);
-            //Freezes here below!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            //Pretty sure it's not actually finding the prefab, so newScavenger is always a nullptr as it will never have a sprite attached. Cant figure out how to sort it out.
-            //Tried a bunch of things I thought might fix it. Like been doing this for an hour and half now
-            //
-            WaitForClickToLocation(newScavenger.gameObject.GetComponent<Drone>());
+            newScavenger.GetComponent<Scavenger>().resorcePerSec = resourcePerMinute / 60;
             scavengersOnShip--;
-            //CollectResources(newScavenger);
-
         }
-
-    }
-
-    public void RepairScavenger()
-    {
-        //if()
-    }
-
-    public void CollectResources(GameObject scavenger)
-    {
-        GamestateManager.resources += resourcePerMinute;
-        //ReturnScavenger();
-    }
-
-    public void ReturnScavenger()
-    {
 
     }
 }

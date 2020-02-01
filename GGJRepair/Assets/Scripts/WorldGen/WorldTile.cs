@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(BoxCollider2D))]
 public class WorldTile : MonoBehaviour
 {
 
@@ -28,6 +29,10 @@ public class WorldTile : MonoBehaviour
     private Sprite goodSprite, badSprite;
     private SpriteRenderer spriteRenderer;
 
+    //Event for tile clicked
+    public delegate void TileClick(WorldTile tile);
+    public static event TileClick TileClicked; 
+
 
     // Start is called before the first frame update
     void Start()
@@ -44,13 +49,9 @@ public class WorldTile : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            StartCoroutine(FadeToSprite(5, goodSprite));
-        }
+        TileClicked?.Invoke(this);
     }
 
     /// <summary>

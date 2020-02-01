@@ -32,7 +32,6 @@ public class WorkerManager : DroneManager
         //Choose destination 
         GameObject newWorker = Instantiate(workerPrefab);
         newWorker.transform.position = new Vector3(0.7f, 5.7f, 0.0f);
-        WaitForClickToLocation(newWorker.gameObject.GetComponent<Drone>());
         workersOnShip--;
     }
 
