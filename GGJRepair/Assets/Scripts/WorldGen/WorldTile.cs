@@ -25,6 +25,8 @@ public class WorldTile : MonoBehaviour
     public Sprite goodSprite, badSprite, undiscoveredSprite;
     private SpriteRenderer spriteRenderer;
 
+    public Drone user;
+
     //Event for tile clicked
     public delegate void TileClick(WorldTile tile);
     public static event TileClick TileClicked; 
@@ -39,6 +41,8 @@ public class WorldTile : MonoBehaviour
         //Start with the badSprite
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = undiscoveredSprite;
+
+        user = null;
 
     }
 

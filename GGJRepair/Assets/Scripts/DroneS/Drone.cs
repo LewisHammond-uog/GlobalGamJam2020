@@ -49,11 +49,12 @@ public class Drone : MonoBehaviour
     
     private void SetLocation(WorldTile tile)
     {
-        if(currentState == DroneState.IDLE)
+        if(currentState == DroneState.IDLE && tile.user == null)
         {
             destination = tile.transform.position;
             destinationTile = tile;
             currentState = DroneState.GOTO_DEST;
+            tile.user = this;
         }
     }
     protected void Update()
@@ -74,6 +75,11 @@ public class Drone : MonoBehaviour
 
                     break;
                 }
+            case (DroneState.DOING_TASK):
+            {
+
+                break;
+            }
             case (DroneState.GOTO_BASE):
                 {
 
@@ -85,6 +91,13 @@ public class Drone : MonoBehaviour
                         Destroy(gameObject);
                     }
 
+                    if(destinationTile.user == this)
+                    {
+                        destinationTile.user = null;
+                    }
+                        
+
+
                     break;
                     
                 }
@@ -94,6 +107,15 @@ public class Drone : MonoBehaviour
         if(aliveTimer > lifeTime)
         {
             currentState = DroneState.GOTO_BASE;
+        }
+    }
+
+    protected void OnDestroy()
+    {
+        //Reset Tile User
+        if (destinationTile.user == this)
+        {
+            destinationTile.user = null;
         }
     }
 
