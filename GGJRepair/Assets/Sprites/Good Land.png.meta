@@ -1,187 +1,187 @@
 fileFormatVersion: 2
-guid: e533aae8d0e6c1749938c02570247fa0
+guid: 78ebfc98a747a354888e8ad7c85a7ea0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -893738095080197720
-    second: Land bad_0
+      213: -5257296195930592067
+    second: Good Land_0
   - first:
-      213: -2799737128278301530
-    second: Land bad_1
+      213: 1587342372370933032
+    second: Good Land_1
   - first:
-      213: 8134508889926467037
-    second: Land bad_2
+      213: 9218368301779832365
+    second: Good Land_2
   - first:
-      213: 1608841281043877878
-    second: Land bad_3
+      213: -5027694618506709692
+    second: Good Land_3
   - first:
-      213: 9048063774643565320
-    second: Land bad_4
+      213: 1482880842211892562
+    second: Good Land_4
   - first:
-      213: -906827866076871781
-    second: Land bad_5
+      213: 7835339035760947265
+    second: Good Land_5
   - first:
-      213: 5049741492656345404
-    second: Land bad_6
+      213: 1666888062596648862
+    second: Good Land_6
   - first:
-      213: 1234952147019667594
-    second: Land bad_7
+      213: 2407051319806207259
+    second: Good Land_7
   - first:
-      213: -5696732871241188502
-    second: Land bad_8
+      213: -1147138920462860421
+    second: Good Land_8
   - first:
-      213: -6615838025879220926
-    second: Land bad_9
+      213: 4068322107519287516
+    second: Good Land_9
   - first:
-      213: 3250728000653788725
-    second: Land bad_10
+      213: -8288488282995734933
+    second: Good Land_10
   - first:
-      213: -6240905471710207449
-    second: Land bad_11
+      213: -3435257211474583014
+    second: Good Land_11
   - first:
-      213: -3784614177745066920
-    second: Land bad_12
+      213: 6459565425235040570
+    second: Good Land_12
   - first:
-      213: -3695095369791431334
-    second: Land bad_13
+      213: 8416900819960515557
+    second: Good Land_13
   - first:
-      213: 3623373889447378875
-    second: Land bad_14
+      213: 4731898824675860660
+    second: Good Land_14
   - first:
-      213: 8509035464251495298
-    second: Land bad_15
+      213: -5427034124202709857
+    second: Good Land_15
   - first:
-      213: -2910880023341283497
-    second: Land bad_16
+      213: 1582872775563537394
+    second: Good Land_16
   - first:
-      213: -7795892139966104800
-    second: Land bad_17
+      213: -1474739859433144930
+    second: Good Land_17
   - first:
-      213: 1387732689268329802
-    second: Land bad_18
+      213: 7269086371932910565
+    second: Good Land_18
   - first:
-      213: 9204345123374067111
-    second: Land bad_19
+      213: -2535789246324333830
+    second: Good Land_19
   - first:
-      213: -247444044823852175
-    second: Land bad_20
+      213: 8029827035113152567
+    second: Good Land_20
   - first:
-      213: -5505413209690412942
-    second: Land bad_21
+      213: 41747770053754765
+    second: Good Land_21
   - first:
-      213: 327070529798557106
-    second: Land bad_22
+      213: -4128540445659769822
+    second: Good Land_22
   - first:
-      213: -1866834996804527403
-    second: Land bad_23
+      213: 6742019954293127453
+    second: Good Land_23
   - first:
-      213: -494396583934389766
-    second: Land bad_24
+      213: 2799848372562394193
+    second: Good Land_24
   - first:
-      213: -8883007148081623532
-    second: Land bad_25
+      213: 1730824861452434996
+    second: Good Land_25
   - first:
-      213: 5462551242538853673
-    second: Land bad_26
+      213: 2995171802405506245
+    second: Good Land_26
   - first:
-      213: 6305102442625334749
-    second: Land bad_27
+      213: 5271848348493287732
+    second: Good Land_27
   - first:
-      213: -2070416938364761608
-    second: Land bad_28
+      213: 7382886036443558096
+    second: Good Land_28
   - first:
-      213: -760433592279716883
-    second: Land bad_29
+      213: 6914491390450249515
+    second: Good Land_29
   - first:
-      213: -4576950077832341700
-    second: Land bad_30
+      213: -5410376220726205506
+    second: Good Land_30
   - first:
-      213: 5284720373589609097
-    second: Land bad_31
+      213: -3494347740787129042
+    second: Good Land_31
   - first:
-      213: -7096825944606198812
-    second: Land bad_32
+      213: -7466519892902941758
+    second: Good Land_32
   - first:
-      213: -522818345737515186
-    second: Land bad_33
+      213: 2747030143829505106
+    second: Good Land_33
   - first:
-      213: 1230059539449306348
-    second: Land bad_34
+      213: -9018346393140875540
+    second: Good Land_34
   - first:
-      213: -8718010998390370345
-    second: Land bad_35
+      213: -2769443429294748573
+    second: Good Land_35
   - first:
-      213: -2438710760210229137
-    second: Land bad_36
+      213: -6774492211188451033
+    second: Good Land_36
   - first:
-      213: 1903413457168085256
-    second: Land bad_37
+      213: -6409393714424715130
+    second: Good Land_37
   - first:
-      213: -9130459853736211807
-    second: Land bad_38
+      213: 4572045003150720933
+    second: Good Land_38
   - first:
-      213: 7487625838178633297
-    second: Land bad_39
+      213: -8077857990681632823
+    second: Good Land_39
   - first:
-      213: -8484517750548555324
-    second: Land bad_40
+      213: 4119935535774790823
+    second: Good Land_40
   - first:
-      213: -3294258859122679453
-    second: Land bad_41
+      213: -1130046845467516288
+    second: Good Land_41
   - first:
-      213: 6728570307647378273
-    second: Land bad_42
+      213: 5307778437248528852
+    second: Good Land_42
   - first:
-      213: -1012860726054206968
-    second: Land bad_43
+      213: 359259507958429156
+    second: Good Land_43
   - first:
-      213: -8255662239993562709
-    second: Land bad_44
+      213: -2766166089358139607
+    second: Good Land_44
   - first:
-      213: -2641983615799627087
-    second: Land bad_45
+      213: -8571226628340662771
+    second: Good Land_45
   - first:
-      213: 3672628523708782975
-    second: Land bad_46
+      213: -5995011129877616094
+    second: Good Land_46
   - first:
-      213: 4715247317033402336
-    second: Land bad_47
+      213: -3140305931322670727
+    second: Good Land_47
   - first:
-      213: -7881053301553769340
-    second: Land bad_48
+      213: -4198326649104167751
+    second: Good Land_48
   - first:
-      213: 7977842408900528665
-    second: Land bad_49
+      213: -1373535527063167598
+    second: Good Land_49
   - first:
-      213: 2892773039920407239
-    second: Land bad_50
+      213: 6840978589221709342
+    second: Good Land_50
   - first:
-      213: 4959804594577221869
-    second: Land bad_51
+      213: -5348014420146456877
+    second: Good Land_51
   - first:
-      213: -2410469475178257476
-    second: Land bad_52
+      213: 841708713103742408
+    second: Good Land_52
   - first:
-      213: -7889441920147826578
-    second: Land bad_53
+      213: 1508179549805982925
+    second: Good Land_53
   - first:
-      213: 4548636158054541289
-    second: Land bad_54
+      213: 6643527542234143047
+    second: Good Land_54
   - first:
-      213: -4359399467779777167
-    second: Land bad_55
+      213: 5137287333874190396
+    second: Good Land_55
   - first:
-      213: 5710255312080578109
-    second: Land bad_56
+      213: 323032473885499361
+    second: Good Land_56
   - first:
-      213: -1719737001665875153
-    second: Land bad_57
+      213: -4626043792735379322
+    second: Good Land_57
   - first:
-      213: 7637778200659289306
-    second: Land bad_58
+      213: 5375302404926179391
+    second: Good Land_58
   - first:
-      213: 5161558458105318771
-    second: Land bad_59
+      213: 7150426266447505637
+    second: Good Land_59
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -211,7 +211,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -261,62 +261,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Lumin
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
     buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -330,7 +275,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Land bad_0
+      name: Good Land_0
       rect:
         serializedVersion: 2
         x: 0
@@ -344,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a05df0a40e7f3945b935ff9dc325dd1
-      internalID: -893738095080197720
+      spriteID: d844e06f396b75f468d7474189668e50
+      internalID: -5257296195930592067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_1
+      name: Good Land_1
       rect:
         serializedVersion: 2
         x: 48
@@ -365,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b283fb8f61b250e4a8625c7758449416
-      internalID: -2799737128278301530
+      spriteID: 17d60033ff098964ab0af1cb44063ed8
+      internalID: 1587342372370933032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_2
+      name: Good Land_2
       rect:
         serializedVersion: 2
         x: 96
@@ -386,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a02a3ff68593b294889c780324d65fde
-      internalID: 8134508889926467037
+      spriteID: 4c98de9b645dd714c9e41b05e22b9733
+      internalID: 9218368301779832365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_3
+      name: Good Land_3
       rect:
         serializedVersion: 2
         x: 144
@@ -407,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d90c5e2a0e22024198179a134808a2d
-      internalID: 1608841281043877878
+      spriteID: d8f6d515367db52478db0493944cd15f
+      internalID: -5027694618506709692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_4
+      name: Good Land_4
       rect:
         serializedVersion: 2
         x: 192
@@ -428,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44392f13b18e03948a8bb60f092a0130
-      internalID: 9048063774643565320
+      spriteID: eeb8b2cb6c0a7ba469103f0e76d47263
+      internalID: 1482880842211892562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_5
+      name: Good Land_5
       rect:
         serializedVersion: 2
         x: 240
@@ -449,14 +394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ac2097196318f64da2159b8930024f7
-      internalID: -906827866076871781
+      spriteID: 8471d1edaf01b7a4892282576d4cc20e
+      internalID: 7835339035760947265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_6
+      name: Good Land_6
       rect:
         serializedVersion: 2
         x: 288
@@ -470,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6958c99f30b1cb2468a556ed2155a07c
-      internalID: 5049741492656345404
+      spriteID: 34237f5a08f591a4a86ca58ee43c17e5
+      internalID: 1666888062596648862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_7
+      name: Good Land_7
       rect:
         serializedVersion: 2
         x: 336
@@ -491,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb1683065de19a84cb0f2d214b5c6c95
-      internalID: 1234952147019667594
+      spriteID: ad47c627b9f1a4b46ae6208654d7f34f
+      internalID: 2407051319806207259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_8
+      name: Good Land_8
       rect:
         serializedVersion: 2
         x: 384
@@ -512,14 +457,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 196e69a62c7a49848a4bf92f3221aee1
-      internalID: -5696732871241188502
+      spriteID: 77167be7e29b22a45b0c22e110e43429
+      internalID: -1147138920462860421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_9
+      name: Good Land_9
       rect:
         serializedVersion: 2
         x: 432
@@ -533,14 +478,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53e3d31360126c14391da4237c96a3ca
-      internalID: -6615838025879220926
+      spriteID: 3caeab2731863de43aebc7d131156a34
+      internalID: 4068322107519287516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_10
+      name: Good Land_10
       rect:
         serializedVersion: 2
         x: 0
@@ -554,14 +499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1de16565a0024254c9ccccee0e4f3511
-      internalID: 3250728000653788725
+      spriteID: 92605e5266d938f4fb80f8fcc9e111cd
+      internalID: -8288488282995734933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_11
+      name: Good Land_11
       rect:
         serializedVersion: 2
         x: 48
@@ -575,14 +520,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17555326e5009564c9e0a9b5719426fe
-      internalID: -6240905471710207449
+      spriteID: 1f090ab60ff131041ab490cc76ce197d
+      internalID: -3435257211474583014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_12
+      name: Good Land_12
       rect:
         serializedVersion: 2
         x: 96
@@ -596,14 +541,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56863a19070aef842a00dcad6d9d7847
-      internalID: -3784614177745066920
+      spriteID: 714210e1113c32641b968453268aa14f
+      internalID: 6459565425235040570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_13
+      name: Good Land_13
       rect:
         serializedVersion: 2
         x: 144
@@ -617,14 +562,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adcc87d0a336bed44bb585dc9bb0a68f
-      internalID: -3695095369791431334
+      spriteID: 650ffd2f1ff1e514885515aadb1d9dbd
+      internalID: 8416900819960515557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_14
+      name: Good Land_14
       rect:
         serializedVersion: 2
         x: 192
@@ -638,14 +583,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d960824c276b29498b92ad334da9974
-      internalID: 3623373889447378875
+      spriteID: c4e1649b9dfbf4546b07e5dbafc32646
+      internalID: 4731898824675860660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_15
+      name: Good Land_15
       rect:
         serializedVersion: 2
         x: 240
@@ -659,14 +604,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a285ed4c63bab246865c6596a29786a
-      internalID: 8509035464251495298
+      spriteID: fea08b4cab8dd614abef3775cecf9d12
+      internalID: -5427034124202709857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_16
+      name: Good Land_16
       rect:
         serializedVersion: 2
         x: 288
@@ -680,14 +625,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c736847512b882f4c96dd55754f53851
-      internalID: -2910880023341283497
+      spriteID: 230228a7b26a722468f1ed48b3e4ac85
+      internalID: 1582872775563537394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_17
+      name: Good Land_17
       rect:
         serializedVersion: 2
         x: 336
@@ -701,14 +646,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aed73064ceb7cf40b8cc4d7bc974405
-      internalID: -7795892139966104800
+      spriteID: 6afabc3e1619f9444b72a9d34838e98e
+      internalID: -1474739859433144930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_18
+      name: Good Land_18
       rect:
         serializedVersion: 2
         x: 384
@@ -722,14 +667,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f58138f24030814b8cdd0f47d92ad95
-      internalID: 1387732689268329802
+      spriteID: 863174a829471424799698cbd307cc37
+      internalID: 7269086371932910565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_19
+      name: Good Land_19
       rect:
         serializedVersion: 2
         x: 432
@@ -743,14 +688,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5b952a1e402ed4eb44cb5454dd4d71
-      internalID: 9204345123374067111
+      spriteID: 228245f3c136c424a9c4eae590bc929a
+      internalID: -2535789246324333830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_20
+      name: Good Land_20
       rect:
         serializedVersion: 2
         x: 0
@@ -764,14 +709,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb14fb9e52206e04bbf9872509931261
-      internalID: -247444044823852175
+      spriteID: edb3e39a126f8be4683c28a6b422909f
+      internalID: 8029827035113152567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_21
+      name: Good Land_21
       rect:
         serializedVersion: 2
         x: 48
@@ -785,14 +730,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20cfea075c988094eb5d8bac58923cb3
-      internalID: -5505413209690412942
+      spriteID: ec96086a7f46f9547b09612e09789de3
+      internalID: 41747770053754765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_22
+      name: Good Land_22
       rect:
         serializedVersion: 2
         x: 96
@@ -806,14 +751,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98b459a64ecb02142a2ebde0cf14a9c1
-      internalID: 327070529798557106
+      spriteID: 15e6b69a37cc9294580a40e751319f1e
+      internalID: -4128540445659769822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_23
+      name: Good Land_23
       rect:
         serializedVersion: 2
         x: 144
@@ -827,14 +772,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7c50804f55df3e4a884c81f204640fc
-      internalID: -1866834996804527403
+      spriteID: 7148d44120e6cf741929076571b7ab3c
+      internalID: 6742019954293127453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_24
+      name: Good Land_24
       rect:
         serializedVersion: 2
         x: 192
@@ -848,14 +793,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bb924c303db5ee49a3853543d9ce9d8
-      internalID: -494396583934389766
+      spriteID: acf592d38f30003498ffe901f011b38e
+      internalID: 2799848372562394193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_25
+      name: Good Land_25
       rect:
         serializedVersion: 2
         x: 240
@@ -869,14 +814,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b578541d6ef145f4797aafbff4999d75
-      internalID: -8883007148081623532
+      spriteID: 3c33f7ae74fc346438cc03a3170a3ac2
+      internalID: 1730824861452434996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_26
+      name: Good Land_26
       rect:
         serializedVersion: 2
         x: 288
@@ -890,14 +835,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14c5bbfe3053bc548952331a1b434bf7
-      internalID: 5462551242538853673
+      spriteID: 46b1917870b462949974508a2be4e454
+      internalID: 2995171802405506245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_27
+      name: Good Land_27
       rect:
         serializedVersion: 2
         x: 336
@@ -911,14 +856,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 939637f6ae34e1b4a8bfc042e204e0ff
-      internalID: 6305102442625334749
+      spriteID: 6513b966c5ae7424b8396b16926895d1
+      internalID: 5271848348493287732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_28
+      name: Good Land_28
       rect:
         serializedVersion: 2
         x: 384
@@ -932,14 +877,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 904201aa7aab8194eb37f176f6ec8882
-      internalID: -2070416938364761608
+      spriteID: 46dfbe32ea5a5344c88c6efcc2e4ce2b
+      internalID: 7382886036443558096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_29
+      name: Good Land_29
       rect:
         serializedVersion: 2
         x: 432
@@ -953,14 +898,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3702d98685a9f064cbe51784f8a69aad
-      internalID: -760433592279716883
+      spriteID: 945b8e9459661624798bf5b5c5d42221
+      internalID: 6914491390450249515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_30
+      name: Good Land_30
       rect:
         serializedVersion: 2
         x: 0
@@ -974,14 +919,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16742bbe04a98e04e8a96219ca35f4d2
-      internalID: -4576950077832341700
+      spriteID: ecd5bf36e59096c448e695d0ed8d609d
+      internalID: -5410376220726205506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_31
+      name: Good Land_31
       rect:
         serializedVersion: 2
         x: 48
@@ -995,14 +940,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a2934330c2ce7641b75aba0ae02e152
-      internalID: 5284720373589609097
+      spriteID: 4f947e6a720797d47911f0cee65983d1
+      internalID: -3494347740787129042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_32
+      name: Good Land_32
       rect:
         serializedVersion: 2
         x: 96
@@ -1016,14 +961,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09faab5e55435c148a042504da48e873
-      internalID: -7096825944606198812
+      spriteID: 870f470f8bb52ad409702588b585e19c
+      internalID: -7466519892902941758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_33
+      name: Good Land_33
       rect:
         serializedVersion: 2
         x: 144
@@ -1037,14 +982,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1b12a9f188010f4ea45e70ac7f82c3e
-      internalID: -522818345737515186
+      spriteID: 0c729731022809a4d9eb9113599183c8
+      internalID: 2747030143829505106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_34
+      name: Good Land_34
       rect:
         serializedVersion: 2
         x: 192
@@ -1058,14 +1003,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f2609cde97de724c89ff51159b73c60
-      internalID: 1230059539449306348
+      spriteID: c21045a45f0d10746834d3d4f8cafb2c
+      internalID: -9018346393140875540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_35
+      name: Good Land_35
       rect:
         serializedVersion: 2
         x: 240
@@ -1079,14 +1024,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a253a9cd81bf5468a0baa85a14b794
-      internalID: -8718010998390370345
+      spriteID: 82dd231304ed525409eb58f8adc21e65
+      internalID: -2769443429294748573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_36
+      name: Good Land_36
       rect:
         serializedVersion: 2
         x: 288
@@ -1100,14 +1045,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9428370af750d644958d10c0d60e99a
-      internalID: -2438710760210229137
+      spriteID: 51457ead02960fb46b5d92c0a8d986b7
+      internalID: -6774492211188451033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_37
+      name: Good Land_37
       rect:
         serializedVersion: 2
         x: 336
@@ -1121,14 +1066,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54dbdf6cbbcfb8c41aa30b8e5c626960
-      internalID: 1903413457168085256
+      spriteID: a4910a3e9a9a2e445a11ac69770b2d96
+      internalID: -6409393714424715130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_38
+      name: Good Land_38
       rect:
         serializedVersion: 2
         x: 384
@@ -1142,14 +1087,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5523754ef688f0346a32474caf38efdd
-      internalID: -9130459853736211807
+      spriteID: 12e9a66b5210c924baf2449dcc0be374
+      internalID: 4572045003150720933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_39
+      name: Good Land_39
       rect:
         serializedVersion: 2
         x: 432
@@ -1163,14 +1108,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94c4b76f6193f9c468f047899c8fd766
-      internalID: 7487625838178633297
+      spriteID: 19a8133ffe0925d4ca2d5362ef3a44da
+      internalID: -8077857990681632823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_40
+      name: Good Land_40
       rect:
         serializedVersion: 2
         x: 0
@@ -1184,14 +1129,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8a63672619805c41864551b6ff7e775
-      internalID: -8484517750548555324
+      spriteID: 486584bf71a9d8440a7668a96f486f3f
+      internalID: 4119935535774790823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_41
+      name: Good Land_41
       rect:
         serializedVersion: 2
         x: 48
@@ -1205,14 +1150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d53a7830a881e3f45baad6fccc128c63
-      internalID: -3294258859122679453
+      spriteID: 8cec0659a9bc9fd4dbb359ebd8f8fe3d
+      internalID: -1130046845467516288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_42
+      name: Good Land_42
       rect:
         serializedVersion: 2
         x: 96
@@ -1226,14 +1171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55a607567d0923244ab7a4e87729bcef
-      internalID: 6728570307647378273
+      spriteID: 9f4c304e4a24b814ab0b2c4e8cbf9494
+      internalID: 5307778437248528852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_43
+      name: Good Land_43
       rect:
         serializedVersion: 2
         x: 144
@@ -1247,14 +1192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6157d0dfe9ed2694c82bc0831215b29c
-      internalID: -1012860726054206968
+      spriteID: 74c9453761e869e46bdb71e58b19dace
+      internalID: 359259507958429156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_44
+      name: Good Land_44
       rect:
         serializedVersion: 2
         x: 192
@@ -1268,14 +1213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e673013af8fb54b45961107357f39f35
-      internalID: -8255662239993562709
+      spriteID: 066044a088a701d45bd1ba1a0ce1abcc
+      internalID: -2766166089358139607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_45
+      name: Good Land_45
       rect:
         serializedVersion: 2
         x: 240
@@ -1289,14 +1234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6702e831536d0d4458ff2861d9997abd
-      internalID: -2641983615799627087
+      spriteID: b6d2f0173b5045448af3749041538bbc
+      internalID: -8571226628340662771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_46
+      name: Good Land_46
       rect:
         serializedVersion: 2
         x: 288
@@ -1310,14 +1255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbd7f298c9903aa4780b71245f4808f8
-      internalID: 3672628523708782975
+      spriteID: ed1f7fdc2f32e724f80a38005c0e9d73
+      internalID: -5995011129877616094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_47
+      name: Good Land_47
       rect:
         serializedVersion: 2
         x: 336
@@ -1331,14 +1276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7415963929075914fb5231b291c1e312
-      internalID: 4715247317033402336
+      spriteID: 10f4ae30279df03459edc301d30b1a29
+      internalID: -3140305931322670727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_48
+      name: Good Land_48
       rect:
         serializedVersion: 2
         x: 384
@@ -1352,14 +1297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 104fb6c82250bff48addaee007429597
-      internalID: -7881053301553769340
+      spriteID: b087e79893c9f324eaf99ebb2ee1527b
+      internalID: -4198326649104167751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_49
+      name: Good Land_49
       rect:
         serializedVersion: 2
         x: 432
@@ -1373,14 +1318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42bf23f40d782a84bbfef81528f352a2
-      internalID: 7977842408900528665
+      spriteID: ea9cd66f7f5504a47b2f15125fea49e9
+      internalID: -1373535527063167598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_50
+      name: Good Land_50
       rect:
         serializedVersion: 2
         x: 0
@@ -1394,14 +1339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13a33ec5118369d47bef37d7867877bc
-      internalID: 2892773039920407239
+      spriteID: ae37944574f686f4f973c7c4420db3c0
+      internalID: 6840978589221709342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_51
+      name: Good Land_51
       rect:
         serializedVersion: 2
         x: 48
@@ -1415,14 +1360,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b206e6057a2d6174cbc08beb6f43384e
-      internalID: 4959804594577221869
+      spriteID: 055320597e861df47880ebd547ba24f1
+      internalID: -5348014420146456877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_52
+      name: Good Land_52
       rect:
         serializedVersion: 2
         x: 96
@@ -1436,14 +1381,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b3df4c16a2c35a4fb19d6d778ec26a7
-      internalID: -2410469475178257476
+      spriteID: c84b7a7b4ca499442b7dcdffb954774b
+      internalID: 841708713103742408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_53
+      name: Good Land_53
       rect:
         serializedVersion: 2
         x: 144
@@ -1457,14 +1402,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1f516a06976e204fb3d178e75253e95
-      internalID: -7889441920147826578
+      spriteID: 37713b5296c138f4d8b9f0056c705d38
+      internalID: 1508179549805982925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_54
+      name: Good Land_54
       rect:
         serializedVersion: 2
         x: 192
@@ -1478,14 +1423,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f8554f2c07e6d5458ed904eb85b27bc
-      internalID: 4548636158054541289
+      spriteID: 91bff053e3a82904098aebb993d27bd2
+      internalID: 6643527542234143047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_55
+      name: Good Land_55
       rect:
         serializedVersion: 2
         x: 240
@@ -1499,14 +1444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78b5c7a7495dc424ebf48413c7506d6e
-      internalID: -4359399467779777167
+      spriteID: a4367607b614e73498e9d4b5f01ceacd
+      internalID: 5137287333874190396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_56
+      name: Good Land_56
       rect:
         serializedVersion: 2
         x: 288
@@ -1520,14 +1465,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e648c3ad14da0bb48a78ff3bf98dbbe8
-      internalID: 5710255312080578109
+      spriteID: c67a434df91479444b2a16266f3d6c6e
+      internalID: 323032473885499361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_57
+      name: Good Land_57
       rect:
         serializedVersion: 2
         x: 336
@@ -1541,14 +1486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f947c490e3813b468aa9406ef469387
-      internalID: -1719737001665875153
+      spriteID: 2998ea7e8857ad842b0dff473f29a008
+      internalID: -4626043792735379322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_58
+      name: Good Land_58
       rect:
         serializedVersion: 2
         x: 384
@@ -1562,14 +1507,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad1a84f9740423b439c53f1a06bf47c9
-      internalID: 7637778200659289306
+      spriteID: b01458fcf5d07b643a78bd5649a40f4b
+      internalID: 5375302404926179391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land bad_59
+      name: Good Land_59
       rect:
         serializedVersion: 2
         x: 432
@@ -1583,8 +1528,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a8e92003e83315489143ce27c80d603
-      internalID: 5161558458105318771
+      spriteID: 094495aaa7e9eb94d87e442efbd6a801
+      internalID: 7150426266447505637
       vertices: []
       indices: 
       edges: []
@@ -1592,7 +1537,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4f271486939033d49a1111bc1306d230
+    spriteID: b07a650c5aa58a54a9111c90e6528fc7
     internalID: 0
     vertices: []
     indices: 
