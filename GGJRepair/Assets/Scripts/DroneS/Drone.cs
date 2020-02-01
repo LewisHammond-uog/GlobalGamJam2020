@@ -12,9 +12,11 @@ public class Drone : MonoBehaviour
         GOTO_BASE
     }
 
+    /*
     public int health;
     public float repairTime;
     public float repairCost;
+    */
 
     public float lifeTime = 60f;
     private float aliveTimer = 0f;

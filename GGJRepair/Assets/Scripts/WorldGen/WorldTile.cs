@@ -17,13 +17,9 @@ public class WorldTile : MonoBehaviour
     //Properties for this world tile
     private bool discovered;
     [Range(0,100)]
-    private float repairState;
+    public float repairState = 0;
     [Range(0, 100)]
-    private float remainingResources;
-    private bool beingRepaired;
-
-    [SerializeField]
-    private TileTypes ourType;
+    public float remainingResources;
 
     [SerializeField]
     private Sprite goodSprite, badSprite, undiscoveredSprite;
@@ -40,15 +36,31 @@ public class WorldTile : MonoBehaviour
         //Initalise values
         discovered = false;
         repairState = 0f;
-        remainingResources = 0f;
-        beingRepaired = false;
-
+        remainingResources = 100f;
         //Start with the badSprite
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = badSprite;
 
     }
 
+    private void Update()
+    {
+        //Unrepair if we completely deplete the resources
+        if(remainingResources <= 0)
+        {
+            repairState = 0;
+        }
+
+        //Reset Resources if we repair to 100
+        if(repairState >= 100)
+        {
+            remainingResources = 100;
+        }
+    }
+
+
+
+    //Call Event when this tile is clicked
     private void OnMouseDown()
     {
         TileClicked?.Invoke(this);
