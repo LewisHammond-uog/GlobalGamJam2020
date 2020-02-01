@@ -7,36 +7,35 @@ public class WorkerManager : DroneManager
     [SerializeField]
     private GameObject workerPrefab;
     public float upgradeCost = 30.0f;
-    public int workersOnShip;
+    public float extractTime = 60.0f; //Time it takes to return to station
+    public float repairPerMinute = 100f;
 
+    // Start is called before the first frame update
     // Start is called before the first frame update
     void Start()
     {
-        workersOnShip = 1;
+        totalDrones = donesOnShip;
     }
-
 
     public void BuyWorker()
     {
         if (GamestateManager.resources >= upgradeCost)
         {
             GamestateManager.resources -= upgradeCost;
-            workersOnShip++;
-            totalDrones++;
-            upgradeCost += 10.0f;
+            donesOnShip += 1;
+            totalDrones += 1;
         }
     }
 
     public void DeployWorker()
     {
-        //Choose destination 
-        GameObject newWorker = Instantiate(workerPrefab);
-        newWorker.transform.position = new Vector3(0.7f, 5.7f, 0.0f);
-        workersOnShip--;
-    }
+        if (donesOnShip >= 1)
+        {
+            GameObject newWorker = Instantiate(workerPrefab, new Vector3(0.7f, 5.7f, 0.0f), Quaternion.identity);
+            newWorker.GetComponent<Worker>().repiarPerSec = repairPerMinute / 60;
+            newWorker.GetComponent<Worker>().lifeTime = extractTime;
+            donesOnShip--;
+        }
 
-    public void RepairWorker()
-    {
-        //if()
     }
 }

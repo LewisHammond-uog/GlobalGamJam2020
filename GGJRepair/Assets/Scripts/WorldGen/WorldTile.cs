@@ -15,7 +15,7 @@ public class WorldTile : MonoBehaviour
     }
 
     //Properties for this world tile
-    private bool discovered;
+    public bool discovered;
     [Range(0,100)]
     public float repairState = 0;
     [Range(0, 100)]
@@ -28,7 +28,6 @@ public class WorldTile : MonoBehaviour
     //Event for tile clicked
     public delegate void TileClick(WorldTile tile);
     public static event TileClick TileClicked; 
-
 
     // Start is called before the first frame update
     void Start()

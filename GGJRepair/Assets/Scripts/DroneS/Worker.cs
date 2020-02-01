@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Worker : MonoBehaviour
+public class Worker : Drone
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public WorkerManager creator;
+    public float repiarPerSec = 1;
 
     // Update is called once per frame
     void Update()
     {
-        
+        base.Update();
+
+        if(currentState == DroneState.DOING_TASK)
+        {
+            destinationTile.repairState += repiarPerSec * Time.deltaTime;
+        }
     }
 }

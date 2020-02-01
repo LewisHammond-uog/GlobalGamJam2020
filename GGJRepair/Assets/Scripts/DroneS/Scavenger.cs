@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Scavenger : Drone
 {
-    public float resourcesPerMin;
     public ScavangerManager creator;
     public float resorcePerSec = 1;
 
@@ -16,15 +15,18 @@ public class Scavenger : Drone
         {
             //If this tile runs out of resources then return the
             //drone to base
-            if (destinationTile.remainingResources > 0)
+            if (destinationTile.discovered)
             {
-                float resorucesToTakeThisFrame = resorcePerSec * Time.deltaTime;
-                GamestateManager.resources += resorucesToTakeThisFrame;
-                destinationTile.remainingResources -= resorucesToTakeThisFrame;
-            }
-            else
-            {
-                currentState = DroneState.GOTO_BASE;
+                if (destinationTile.remainingResources > 0)
+                {
+                    float resorucesToTakeThisFrame = resorcePerSec * Time.deltaTime;
+                    GamestateManager.resources += resorucesToTakeThisFrame;
+                    destinationTile.remainingResources -= resorucesToTakeThisFrame;
+                }
+                else
+                {
+                    currentState = DroneState.GOTO_BASE;
+                }
             }
         }
 

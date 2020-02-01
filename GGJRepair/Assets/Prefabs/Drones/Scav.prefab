@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5746087258294011718}
   - component: {fileID: 2834793917430631905}
-  - component: {fileID: -1187045400679647390}
+  - component: {fileID: 7305189067304413096}
   m_Layer: 0
-  m_Name: TestSprite
+  m_Name: Scav
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,8 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -893738095080197720, guid: e533aae8d0e6c1749938c02570247fa0,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: a73eb2bf4434e1e4e9cb2746c7c50134, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -82,7 +81,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-1187045400679647390
+--- !u!114 &7305189067304413096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,12 +93,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3107b867016e4e43941f2a677bea2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  repairTime: 0
-  repairCost: 0
+  lifeTime: 60
   destination: {x: 0, y: 0}
-  resourcesPerMin: 0
+  destinationTile: {fileID: 0}
+  baseLocation: {x: 0, y: 0}
   creator: {fileID: 0}
+  resorcePerSec: 1
 --- !u!1 &4930986737838707226
 GameObject:
   m_ObjectHideFlags: 0

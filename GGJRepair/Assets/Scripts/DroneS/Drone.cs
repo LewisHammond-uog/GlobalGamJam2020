@@ -54,7 +54,6 @@ public class Drone : MonoBehaviour
             destination = tile.transform.position;
             destinationTile = tile;
             currentState = DroneState.GOTO_DEST;
-            
         }
     }
     protected void Update()

@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScavangerManager : DroneManager
+public class ExplorerManager : DroneManager
 {
     [SerializeField]
-    public GameObject scavengerPrefab;
-    public float upgradeCost = 20.0f;
+    private GameObject exploererPrefab;
+    public float upgradeCost = 30.0f;
     public float extractTime = 60.0f; //Time it takes to return to station
-    public float resourcePerMinute = 50.0f;
+    public float repairPerMinute = 100f;
 
-
+    // Start is called before the first frame update
     // Start is called before the first frame update
     void Start()
     {
         totalDrones = donesOnShip;
     }
 
-    public void BuyScavenger()
+    public void BuyExplorer()
     {
         if (GamestateManager.resources >= upgradeCost)
         {
@@ -27,13 +27,12 @@ public class ScavangerManager : DroneManager
         }
     }
 
-    public void DeployScavenger()
+    public void DeployExplorer()
     {
-        if(donesOnShip >= 1)
+        if (donesOnShip >= 1)
         {
-            GameObject newScavenger = Instantiate(scavengerPrefab, new Vector3(0.7f, 5.7f, 0.0f), Quaternion.identity);
-            newScavenger.GetComponent<Scavenger>().resorcePerSec = resourcePerMinute / 60;
-            newScavenger.GetComponent<Scavenger>().lifeTime = extractTime;
+            GameObject newExploerer = Instantiate(exploererPrefab, new Vector3(0.7f, 5.7f, 0.0f), Quaternion.identity);
+            newExploerer.GetComponent<Exploerer>().lifeTime = extractTime;
             donesOnShip--;
         }
 
