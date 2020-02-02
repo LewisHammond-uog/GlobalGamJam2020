@@ -9,21 +9,23 @@ public class SelectMenu : MonoBehaviour
     [SerializeField]
     private GameObject map;
     [SerializeField]
+    private Transform mapPosition;
+    [SerializeField]
     private Camera menuCamera;
     [SerializeField]
     private Camera playerCamera;
-    private bool inConsole = false;
+    public bool inConsole = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        map.transform.position = new Vector3(-100.0f, -100.0f, 0);
+        menuButtons.GetComponent<Canvas>().scaleFactor = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     private void OnTriggerStay(Collider other)
@@ -34,8 +36,8 @@ public class SelectMenu : MonoBehaviour
             {
                 playerCamera.gameObject.SetActive(false);
                 menuCamera.gameObject.SetActive(true);
-                map.gameObject.SetActive(true);
-                menuButtons.gameObject.SetActive(true);
+                map.transform.position = mapPosition.position;
+                menuButtons.GetComponent<Canvas>().scaleFactor = 1;
                 inConsole = true;
             }
         }
@@ -49,8 +51,8 @@ public class SelectMenu : MonoBehaviour
     {
         menuCamera.gameObject.SetActive(false);
         playerCamera.gameObject.SetActive(true);
-        map.gameObject.SetActive(false);
-        menuButtons.gameObject.SetActive(false);
+        map.transform.position = new Vector3(-100.0f, -100.0f, 0);
+        menuButtons.GetComponent<Canvas>().scaleFactor = 0;
         inConsole = false;
     }
 }
