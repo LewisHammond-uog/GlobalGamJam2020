@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Scavenger : Drone
 {
-    public ScavangerManager creator;
 
     [HideInInspector]
     public float resorcePerSec = 1;

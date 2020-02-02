@@ -28,7 +28,6 @@ public class Drone : MonoBehaviour
     public WorldTile destinationTile;
     public Vector3 baseLocation;
 
-    [HideInInspector]
     public DroneManager creator;
 
     #region Tile Click Event
