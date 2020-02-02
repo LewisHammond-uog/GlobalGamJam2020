@@ -19,6 +19,7 @@ public class SelectMenu : MonoBehaviour
     {
         menuButtons.GetComponent<Canvas>().scaleFactor = 0;
         map.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -39,6 +40,7 @@ public class SelectMenu : MonoBehaviour
 
                 menuButtons.GetComponent<Canvas>().scaleFactor = 1;
                 inConsole = true;
+                Cursor.lockState = CursorLockMode.None;
             }
         }
         else
@@ -52,6 +54,7 @@ public class SelectMenu : MonoBehaviour
         menuCamera.gameObject.SetActive(false);
         playerCamera.gameObject.SetActive(true);
         menuButtons.GetComponent<Canvas>().scaleFactor = 0;
+        Cursor.lockState = CursorLockMode.Locked;
         map.SetActive(false);
         inConsole = false;
     }
