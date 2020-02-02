@@ -59,4 +59,6 @@ MonoBehaviour:
   - {fileID: 311580243825757707, guid: 5f23e126f04748646a8a5cd5641aba0d, type: 3}
   - {fileID: 311580243825757707, guid: cc63f8992c76b2b4dbcfa6c053513d71, type: 3}
   - {fileID: 311580243825757707, guid: d52b853c40e1c7841a9477a0f423c3ec, type: 3}
-  unDiscoveredSprite: {fileID: 21300000, guid: 9afc77d95866baf4a8bdb60cb869ddda, type: 3}
+  unDiscoveredSprite: {fileID: 5193310118108220758, guid: df3eced3df7e57549828555393e89dad,
+    type: 3}
+  isFirstChunk: 0

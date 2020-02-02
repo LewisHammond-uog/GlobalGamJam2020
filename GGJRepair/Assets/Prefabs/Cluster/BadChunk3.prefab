@@ -128,6 +128,8 @@ MonoBehaviour:
   badSprite: {fileID: -7370905082808718939, guid: a31f7356e859f854f904d821a8b31118,
     type: 3}
   undiscoveredSprite: {fileID: 0}
+  user: {fileID: 0}
+  isStartTile: 0
 --- !u!1 &3111596699207736591
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +320,8 @@ MonoBehaviour:
   badSprite: {fileID: 5137623307045801815, guid: a31f7356e859f854f904d821a8b31118,
     type: 3}
   undiscoveredSprite: {fileID: 0}
+  user: {fileID: 0}
+  isStartTile: 0
 --- !u!1 &7135046146384210050
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +347,7 @@ Transform:
   m_GameObject: {fileID: 7135046146384210050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.15, y: 1.15, z: 1}
   m_Children:
   - {fileID: 4119886378254893756}
   - {fileID: 5463261985163505405}
@@ -511,6 +515,8 @@ MonoBehaviour:
   badSprite: {fileID: 9095298201646000330, guid: a31f7356e859f854f904d821a8b31118,
     type: 3}
   undiscoveredSprite: {fileID: 0}
+  user: {fileID: 0}
+  isStartTile: 0
 --- !u!1 &8447869566672913005
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,6 +645,8 @@ MonoBehaviour:
   badSprite: {fileID: -7863040571190853438, guid: a31f7356e859f854f904d821a8b31118,
     type: 3}
   undiscoveredSprite: {fileID: 0}
+  user: {fileID: 0}
+  isStartTile: 0
 --- !u!1 &8769291016935569054
 GameObject:
   m_ObjectHideFlags: 0
