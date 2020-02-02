@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Worker : Drone
 {
-    public WorkerManager creator;
 
     [HideInInspector]
     public float repiarPerSec = 1;
