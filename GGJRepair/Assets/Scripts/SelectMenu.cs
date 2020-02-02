@@ -8,8 +8,7 @@ public class SelectMenu : MonoBehaviour
     private Canvas menuButtons;
     [SerializeField]
     private GameObject map;
-    [SerializeField]
-    private Transform mapPosition;
+    private Vector2 mapStartPos = new Vector3(0.5f, 0.5f, -1.5f);
     [SerializeField]
     private Camera menuCamera;
     [SerializeField]
@@ -36,7 +35,7 @@ public class SelectMenu : MonoBehaviour
             {
                 playerCamera.gameObject.SetActive(false);
                 menuCamera.gameObject.SetActive(true);
-                map.transform.position = mapPosition.position;
+                map.transform.position = mapStartPos;
                 menuButtons.GetComponent<Canvas>().scaleFactor = 1;
                 inConsole = true;
             }
