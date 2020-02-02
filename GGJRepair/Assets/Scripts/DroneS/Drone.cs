@@ -123,7 +123,7 @@ public class Drone : MonoBehaviour
 
         if (creator != null)
         {
-            creator.totalDrones--;
+            //creator.totalDrones--;
         }
     }
 

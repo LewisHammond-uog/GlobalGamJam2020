@@ -27,11 +27,13 @@ public class Scavenger : Drone
                 else
                 {
                     currentState = DroneState.GOTO_BASE;
+                    creator.ReturnDrone();
                 }
             }
             else
             {
                 currentState = DroneState.GOTO_BASE;
+                creator.ReturnDrone();
             }
         }
 

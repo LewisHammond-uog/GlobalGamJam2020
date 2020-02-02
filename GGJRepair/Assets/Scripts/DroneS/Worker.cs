@@ -22,6 +22,7 @@ public class Worker : Drone
             else
             {
                 currentState = DroneState.GOTO_BASE;
+                creator.ReturnDrone();
             }
         }
     }

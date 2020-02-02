@@ -19,6 +19,7 @@ public class Exploerer : Drone
             if (destinationTile.discovered)
             {
                 currentState = DroneState.GOTO_BASE;
+                creator.ReturnDrone();
             }
         }
 

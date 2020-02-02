@@ -7,7 +7,7 @@ public class HeadsUpMenu : MonoBehaviour
 {
 
     [SerializeField]
-    private Text resourcesText, scavsText, exporeText, workerText;
+    private Text resourcesText, scavsText, scavsText2, exporeText, exporeText2, workerText, workerText2;
 
     [SerializeField]
     private ScavangerManager scavMan;
@@ -25,10 +25,13 @@ public class HeadsUpMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        resourcesText.text = $"RESOURCES : {Mathf.RoundToInt(GamestateManager.resources)})";
-        scavsText.text = $"Scavs :  {Mathf.RoundToInt(scavMan.totalDrones - scavMan.donesOnShip)} ({scavMan.totalDrones}";
-        exporeText.text = $"Explores : {Mathf.RoundToInt(exploreMan.totalDrones - exploreMan.donesOnShip)} ({exploreMan.totalDrones})";
-        workerText.text = $"Workers : {Mathf.RoundToInt(workerMan.totalDrones - workerMan.donesOnShip)} ({workerMan.totalDrones})";
+        resourcesText.text = $"RESOURCES : {Mathf.RoundToInt(GamestateManager.resources)}";
+        scavsText.text = $"Scavengers on Ship:  {Mathf.RoundToInt(scavMan.donesOnShip)}";
+        scavsText2.text = $"Total:  {Mathf.RoundToInt(scavMan.totalDrones)}";
+        exporeText.text = $"Explorers on Ship: {Mathf.RoundToInt(exploreMan.donesOnShip)}";
+        exporeText2.text = $"Total:  {Mathf.RoundToInt(exploreMan.totalDrones)}";
+        workerText.text = $"Workers on Ship: {Mathf.RoundToInt(workerMan.donesOnShip)}";
+        workerText2.text = $"Total:  {Mathf.RoundToInt(workerMan.totalDrones)}";
     }
 
     
