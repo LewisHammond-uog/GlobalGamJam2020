@@ -10,29 +10,18 @@ public class WorldGen : MonoBehaviour
     [SerializeField]
     private Vector3 worldDimentions;
 
-    [SerializeField]
-    private float startX;
-    [SerializeField]
-    private float startY;
-
-    [SerializeField]
-    private float scaleX;
-    [SerializeField]
-    private float scaleY;
-
     // Start is called before the first frame update
     void Start()
     {
         //Generate chunks in the world
-        for(float x = startX; x < worldDimentions.x; x += 2.4f)
+        for(int x = 1; x < worldDimentions.x; x += 2)
         {
-            for(float y = startY; y < worldDimentions.z; y += 2.4f)
+            for(int y = 1; y < worldDimentions.z; y += 2)
             {
-                if(x == startX && y == startY)
+                if(x == 1 && y == 1)
                 {
                     //Generate the first tile
                     GameObject newCluster = Instantiate(clusterPrefab);
-                    newCluster.transform.localScale = new Vector2(scaleX, scaleY);
                     newCluster.transform.position = new Vector2(x, y);
                     newCluster.transform.parent = transform;
                     newCluster.name = ($"First Chunk");
@@ -42,7 +31,6 @@ public class WorldGen : MonoBehaviour
                 else
                 {
                     GameObject newCluster = Instantiate(clusterPrefab);
-                    newCluster.transform.localScale = new Vector2(scaleX, scaleY);
                     newCluster.transform.position = new Vector3(x, y);
                     newCluster.transform.parent = transform;
                     newCluster.name = ($"World Chunk {x},{y}");

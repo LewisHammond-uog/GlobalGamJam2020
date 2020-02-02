@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8655176962906792240}
   - component: {fileID: 8655176962906792241}
   m_Layer: 0
-  m_Name: Worker
+  m_Name: Worker Bot_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,6 +116,5 @@ MonoBehaviour:
   destination: {x: 0, y: 0, z: 0}
   destinationTile: {fileID: 0}
   baseLocation: {x: 0, y: 0, z: 0}
-  creator: {fileID: 0}
   creator: {fileID: 0}
   repiarPerSec: 1

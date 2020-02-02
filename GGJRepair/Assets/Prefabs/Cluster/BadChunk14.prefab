@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6946954242925680304}
   m_Layer: 0
-  m_Name: BadChunk14
+  m_Name: BadChunk12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 311580243825757707}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.15, y: 1.15, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6808023077983167541}
   - {fileID: 3208627723296786548}
@@ -193,8 +193,6 @@ MonoBehaviour:
   badSprite: {fileID: 4470607849041115071, guid: a31f7356e859f854f904d821a8b31118,
     type: 3}
   undiscoveredSprite: {fileID: 0}
-  user: {fileID: 0}
-  isStartTile: 0
 --- !u!1 &1327135423211562212
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,8 +321,6 @@ MonoBehaviour:
   badSprite: {fileID: 5416695260197369094, guid: a31f7356e859f854f904d821a8b31118,
     type: 3}
   undiscoveredSprite: {fileID: 0}
-  user: {fileID: 0}
-  isStartTile: 0
 --- !u!1 &2226174087396610071
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,8 +480,6 @@ MonoBehaviour:
   badSprite: {fileID: -5958141314643696029, guid: a31f7356e859f854f904d821a8b31118,
     type: 3}
   undiscoveredSprite: {fileID: 0}
-  user: {fileID: 0}
-  isStartTile: 0
 --- !u!1 &2513575777318678572
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,5 +670,3 @@ MonoBehaviour:
   badSprite: {fileID: 2548849113610781903, guid: a31f7356e859f854f904d821a8b31118,
     type: 3}
   undiscoveredSprite: {fileID: 0}
-  user: {fileID: 0}
-  isStartTile: 0

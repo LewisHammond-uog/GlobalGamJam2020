@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1279705166997252929}
   - component: {fileID: 6358660121477969013}
   m_Layer: 0
-  m_Name: Scavenger
+  m_Name: Scavenger_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,6 +117,5 @@ MonoBehaviour:
   destination: {x: 0, y: 0, z: 0}
   destinationTile: {fileID: 0}
   baseLocation: {x: 0, y: 0, z: 0}
-  creator: {fileID: 0}
   creator: {fileID: 0}
   resorcePerSec: 1
