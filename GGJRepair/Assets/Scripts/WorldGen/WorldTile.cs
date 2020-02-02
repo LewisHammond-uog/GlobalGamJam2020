@@ -77,7 +77,7 @@ public class WorldTile : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            DiscoverTile();
+            //DiscoverTile();
         }
     }
 
